@@ -36,11 +36,8 @@ var sensor = require('node-dht-sensor');
 
 
 
-var atlasURI = "mongodb://MichaelRioux:Noobmike4!@mikesdemo-shard-00-00-ri4jv.mongodb.net:27017,mikesdemo-shard-00-01-ri4jv.mongodb.net:27017,mikesdemo-shard-00-02-ri4jv.mongodb.net:27017/MeatCuring?ssl=true&replicaSet=MikesDemo-shard-0&authSource=admin";
+var atlasURI = "mongodb://MichaelRioux:xxxxxxxxxx@mikesdemo-shard-00-00-ri4jv.mongodb.net:27017,mikesdemo-shard-00-01-ri4jv.mongodb.net:27017,mikesdemo-shard-00-02-ri4jv.mongodb.net:27017/MeatCuring?ssl=true&replicaSet=MikesDemo-shard-0&authSource=admin";
 
-var laptopURI = "mongodb://192.168.1.107/MeatCuring"
-
-var DesktopURI = "mongodb://192.168.1.140/MeatCuring"
 
 var fanOnCode = "5330371";
 var fanOffCode = "5330380";
